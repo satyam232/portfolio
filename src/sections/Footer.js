@@ -78,7 +78,7 @@ const Footer = function () {
             <div className="email-form">
               <form id="form">
                 <h2>
-                  Start by <span>saying hi</span>
+                  comment <span>here</span>
                 </h2>
                 <p>
                   <input
@@ -131,19 +131,19 @@ const Footer = function () {
             <div className="footer-email-intro">
               <p>Information</p>
               <h6>Currently at VIT University, Amravati, Andhra Pradesh</h6>
-              <h3>satyamr232@gmail.com</h3>
-              <h3>Instagram:</h3>
+              <h3>email: satyamr232@gmail.com</h3>
+              <h3>Instagram: <a href='https://www.instagram.com/s._.rana._/' style={{fontSize:"15px", textDecoration:"none"}}>click here</a></h3>
             </div>
             <div className="footer-nav-menu">
               <ul className="footer-menu">
                 <li>
                   <a className="active" href="#">
                     {' '}
-                    Service{' '}
+                    Home{' '}
                   </a>
                 </li>
                 <li>
-                  <a className="" href="#">
+                  <a className="" href="#footer">
                     Contacts
                   </a>
                 </li>

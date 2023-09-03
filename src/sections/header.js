@@ -13,9 +13,9 @@ const Header=function(){
         </div>
         <div>
           <ul className="navbar-menu">
-            <li><a className="active" href="#">Service</a></li>
-            <li><a className="" href="#">Notes</a></li>
-            <li><a id='contacts'href='footer' >Contacts</a></li>
+            <li><a className="active" href="#">Home</a></li>
+            <li><a className="" href="#introduction">Notes</a></li>
+            <li><a id='contacts'href='#footer' >Contacts</a></li>
           </ul>
         </div>
         <div>
