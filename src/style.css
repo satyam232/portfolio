@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
 /* ---------- GLOBAL STYLING ---------- */
 * {
+ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-family: "Source Code Pro", monospace;
+}
+
+body{
+  min-width: 480px;
+  
 }
 
 html {
@@ -571,24 +577,48 @@ body::selection {
   object-fit: cover;
   }
 }
-
-@media (max-height: 720px) {
+@media (max-height: 663px) {
   .circle{
     display: none;
   }
-  .hoodie-guy{
-    display: none;
+  .body-tail {
+    display: flex;
+    align-items: start;
+    padding: 100px 0 0 0;
+  }
+}
+
+@media (max-height: 553px) {
+  .footer{
+    height: 100hv;
   }
   #content-body {
     display: flex;
     background-color: #050A30;
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
-    height: 170vh; /* Full viewport height */
+    height: 180vh; /* Full viewport height */
     padding: 20px; /* Adjust padding as needed */
     margin: 0;
-    max-height: 120vh;
+    max-height: 800vh;
   }
+}
+
+
+@media (max-height: 860px) {
+  
+  
+  #content-body {
+    display: flex;
+    background-color: #050A30;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 180vh; /* Full viewport height */
+    padding: 20px; /* Adjust padding as needed */
+    margin: 0;
+    max-height: 100vh;
+  }
+
 
 }
 
@@ -1438,11 +1468,11 @@ body::selection {
 
 @media (max-width: 820px) {
   #footer {
-    display: flex;
+    display: flexbox;
     flex-direction: row;
     padding: 20px;
     background-color: #25262a;
-    height: 80vh;
+    height: 70vh;
   }
   
   .footer-left {
@@ -1463,7 +1493,7 @@ body::selection {
   }
   
   .email-form {
-    display: flex;
+    display: block;
     flex-direction: column;
     height: 200px;
     width: 220%;
@@ -1633,6 +1663,19 @@ body::selection {
   
 }
 
+
+@media (max-height: 800px){
+  #footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #25262a;
+    height: 100vh;
+  }
+  .email-form{
+    display: flex;
+  }
+}
 
 
 
