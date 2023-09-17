@@ -58,6 +58,20 @@ const LatestWork = function () {
             <img src="assets/Projects/bank1.jpg" alt="" className="project-img-3" />
             <img src="assets/Projects/bank2.jpg" alt="" className="project-img-3" />
           </div>
+          <div className="project-card project-card-4">
+            <div className="title">
+              <h3>WhatsApp Clone</h3>
+              <div className="tech-stack">
+                <p>Flutter</p>
+                <p>Google Firebase</p>
+                <p>FireStore</p>
+              </div>
+            </div>
+            <img src="assets/Projects/wpclone3.jpg" alt="" className="project-img-3" />
+            <img src="assets/Projects/wpclone5.jpg" alt="" className="project-img-3" />
+            <img src="assets/Projects/wpclone1.jpg" alt="" className="project-img-3" />
+            <img src="assets/Projects/wpclone2.jpg" alt="" className="project-img-3" />
+          </div>
         </div>
       </section>
       </body>
