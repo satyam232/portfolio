@@ -6,23 +6,26 @@ const LatestWork = function () {
       <body>
       <section id="latest-works">
         <div className="left-project">
+          
           <div className="latest-work-title">
             <h3>Latest Works</h3>
             <p>Perfect solutions for digital experience</p>
           </div>
-
           <div className="project-card project-card-1">
             <div className="title">
-              <h3>Youtube UI Clone</h3>
+              <h3>WhatsApp Clone</h3>
               <div className="tech-stack">
-                
-                <p>HTML</p>
-                <p>CSS</p>
-                
+                <p>Flutter</p>
+                <p>Google Firebase</p>
+                <p>FireStore</p>
               </div>
             </div>
-            <img src="assets/Projects/project4.png" alt="" className="project-img-2" />
+            <img src="assets/Projects/wpclone3.jpg" alt="" className="project-img-3" />
+            <img src="assets/Projects/wpclone5.jpg" alt="" className="project-img-3" />
+            <img src="assets/Projects/wpclone1.jpg" alt="" className="project-img-3" />
+            <img src="assets/Projects/wpclone2.jpg" alt="" className="project-img-3" />
           </div>
+          
 
           <div className="all-projects">
             <a href="">
@@ -60,17 +63,15 @@ const LatestWork = function () {
           </div>
           <div className="project-card project-card-4">
             <div className="title">
-              <h3>WhatsApp Clone</h3>
+              <h3>Youtube UI Clone</h3>
               <div className="tech-stack">
-                <p>Flutter</p>
-                <p>Google Firebase</p>
-                <p>FireStore</p>
+                
+                <p>HTML</p>
+                <p>CSS</p>
+                
               </div>
             </div>
-            <img src="assets/Projects/wpclone3.jpg" alt="" className="project-img-3" />
-            <img src="assets/Projects/wpclone5.jpg" alt="" className="project-img-3" />
-            <img src="assets/Projects/wpclone1.jpg" alt="" className="project-img-3" />
-            <img src="assets/Projects/wpclone2.jpg" alt="" className="project-img-3" />
+            <img src="assets/Projects/project4.png" alt="" className="project-img-2" />
           </div>
         </div>
       </section>
@@ -78,6 +79,6 @@ const LatestWork = function () {
     </div>
     
   );
-};
+}
 
 export default LatestWork;

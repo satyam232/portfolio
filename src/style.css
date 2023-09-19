@@ -835,11 +835,14 @@ body::selection {
 }
 
 .project-card-2 {
-  background: linear-gradient(225deg, #2c2940, #5a4073);
+  background: linear-gradient(225deg, hsl(170, 20%, 55%), #582658);
 }
 
 .project-card-3 {
-  background: linear-gradient(225deg, #01403A, #025951);
+  background: linear-gradient(225deg, hsl(258, 97%, 13%), #025951);
+}
+.project-card-4 {
+  background: linear-gradient(225deg, hsl(32, 97%, 13%), #020359);
 }
 
 .project-card .title {

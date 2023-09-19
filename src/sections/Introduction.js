@@ -12,7 +12,7 @@ const BodyIntroduction = function () {
               <i className="fa-solid fa-wand-magic-sparkles"></i>
             </div>
             <p>Create design products with unique ideas that matter</p>
-            <a href="">4 PROJECTS</a>
+            <a href=""> 4 PROJECTS</a>
           </div>
 
           <div className="design-card">
