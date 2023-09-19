@@ -1,17 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
 /* ---------- GLOBAL STYLING ---------- */
 * {
- 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Raleway", sans-serif; /* Use Raleway for general text */
 }
 
+
+
+
 body{
+  background-color: #ffffff; 
   min-width: 420px;
+  color: #000000; 
   
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000000; /* Dark background color */
+    color: #ffffff; /* Light text color */
+  }
+}
+
+
+
+
+
+
+code {
+  font-family: "Source Code Pro", monospace; /* Use Source Code Pro for code elements */
 }
 
 html {
