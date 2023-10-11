@@ -9,6 +9,7 @@ import BodyContent from './sections/BodyContent';
 import LatestWork from './sections/Latestwork';
 import Testonomials from './sections/Testinomials';
 import Footer from './sections/Footer';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -71,6 +72,11 @@ function App(){
 
   return (
     <div>
+    <Helmet>
+        <meta charSet='utf-8'/>
+        <title>SRana</title>
+        <meta name='description' content='SRana'/>
+      </Helmet>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
       <Header/>
