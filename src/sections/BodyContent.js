@@ -29,7 +29,7 @@ const BodyContent = () => {
           <a href="#">LET'S CHAT!</a>
         </div>
         <div className="body-tail">
-          <h1>2nd</h1>
+          <h1>3rd</h1>
           <p>YEAR B.TECH<br />STUDENT</p>
           <h1>8</h1>
           <p>PROJECTS<br />COMPLETED</p>
